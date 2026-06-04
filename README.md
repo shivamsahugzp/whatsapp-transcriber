@@ -34,7 +34,7 @@ WhatsApp message  →  link extractor  →  yt-dlp (download audio)
 ## Setup
 
 ```bash
-git clone https://github.com/shivamsahugzp/whatsapp-transcriber
+# Clone the repo, then:
 cd whatsapp-transcriber
 cp .env.example .env       # add your SARVAM_API_KEY
 npm install
