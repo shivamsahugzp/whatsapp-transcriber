@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-transcriber",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that transcribes videos from YouTube, Instagram, Facebook using Sarvam AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "form-data": "^4.0.1",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
